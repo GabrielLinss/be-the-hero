@@ -5,8 +5,12 @@
 ## Back-End
 - into backend folder run the following commands:
 - **yarn** or **npm install**
+- **cp .env.example .env**
 - **yarn knex migrate:latest** or **npx knex migrate:latest**
 - **yarn dev** or **npm run dev**
+### To run Back-End tests
+- change the envirorment variable ENV to ENV=test into .env file
+- **yarn test** or **npm test**
 
 ## Front-End
 - into frontend folder run the following commands:
